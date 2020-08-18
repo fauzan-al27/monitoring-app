@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/pnp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="480dp"
+        android:layout_height="248dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="45dp">
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="128dp"
+            android:layout_marginStart="10dp"
+            android:drawableTop="@drawable/ic_error_outline_black_24dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="@string/about_us" />
+
+        <Button
+            android:id="@+id/out"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="128dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:drawableTop="@drawable/ic_power_settings_new_black_24dp"
+            android:text="@string/out" />
+
+        <Button
+            android:id="@+id/monitoring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:drawableTop="@drawable/ic_touch_app_black_24dp"
+            android:text="@string/monitoring_now" />
+
+        <Button
+            android:id="@+id/data"
+            android:layout_width="147dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="10dp"
+
+            android:drawableTop="@drawable/ic_assignment_black_24dp"
+            android:text="@string/rekapan_data" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
